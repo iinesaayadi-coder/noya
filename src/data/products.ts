@@ -1,4 +1,10 @@
 import type { Product } from '../types';
+import honey from '../assets/Capture d\'écran 2026-04-28 112337.png';
+import berry from '../assets/Capture d\'écran 2026-04-28 112344.png';
+import mint from '../assets/Capture d\'écran 2026-04-28 112350.png';
+import lemon from '../assets/Capture d\'écran 2026-04-28 112356.png';
+import vanilla from '../assets/Capture d\'écran 2026-04-28 112406.png';
+import date from '../assets/Capture d\'écran 2026-04-28 112427.png';
 
 export const products: Product[] = [
   {
@@ -13,7 +19,7 @@ export const products: Product[] = [
     textColor: '#7A4A00',
     bgGradient: 'linear-gradient(135deg, #FFF3CD 0%, #FFE082 60%, #F5B830 100%)',
     emoji: '🍯',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112337.png',
+    image: honey,
   },
   {
     id: 2,
@@ -27,7 +33,7 @@ export const products: Product[] = [
     textColor: '#880050',
     bgGradient: 'linear-gradient(135deg, #FCE4EC 0%, #F8BBD0 60%, #F06292 100%)',
     emoji: '🍓',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112344.png',
+    image: berry,
   },
   {
     id: 3,
@@ -41,7 +47,7 @@ export const products: Product[] = [
     textColor: '#1B5E20',
     bgGradient: 'linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 60%, #66BB6A 100%)',
     emoji: '🌿',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112350.png',
+    image: mint,
   },
   {
     id: 4,
@@ -55,7 +61,7 @@ export const products: Product[] = [
     textColor: '#6D4C00',
     bgGradient: 'linear-gradient(135deg, #FFFDE7 0%, #FFF9C4 60%, #FFCA28 100%)',
     emoji: '🍋',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112356.png',
+    image: lemon,
   },
   {
     id: 5,
@@ -69,7 +75,7 @@ export const products: Product[] = [
     textColor: '#4E342E',
     bgGradient: 'linear-gradient(135deg, #EFEBE9 0%, #D7CCC8 60%, #BCAAA4 100%)',
     emoji: '🌸',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112406.png',
+    image: vanilla,
   },
   {
     id: 6,
@@ -83,6 +89,6 @@ export const products: Product[] = [
     textColor: '#3E2723',
     bgGradient: 'linear-gradient(135deg, #EFEBE9 0%, #BCAAA4 50%, #8D6E63 100%)',
     emoji: '🌴',
-    image: '/src/assets/Capture d\'écran 2026-04-28 112427.png',
+    image: date,
   },
 ];
