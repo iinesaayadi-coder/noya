@@ -30,7 +30,7 @@ export default function Contact() {
                 <div className="contact-icon">📍</div>
                 <div>
                   <strong>Adresse</strong>
-                  <p>Tunis, Tunisie</p>
+                  <p>Seliana, Tunisie</p>
                 </div>
               </div>
               <div className="contact-detail-item">
